@@ -37,6 +37,16 @@ int productivityDay_3 = productivity1*24*60*3;
         System.out.println("За трое сутк машина произвела "+productivityDay_3+ " штук бутылок");
 long productivityMonth = productivity1*24*60*31;
         System.out.println("За месяц машина произвела "+productivityMonth+ " штук бутылок");
-
+byte classes = 120/(4+2);
+int whitePaint = classes*2;
+int brownPaint =classes*4;
+System.out.println("В школе,где "+classes+" классов, нужно "+whitePaint+" банок белой краски и "+brownPaint+" банок коричневой краски");
+short bananas = 80*5;
+short milk = 105*2;
+short icecreamSundae = 2*100;
+short rawEggs = 4*70;
+float sportsBreakfast = bananas+milk+icecreamSundae+rawEggs;
+float sportsBreakfast_kg = sportsBreakfast/1000;
+System.out.println("Вес спортзавтрака в граммах "+sportsBreakfast+", в киллограммах "+sportsBreakfast_kg);
     }
 }
