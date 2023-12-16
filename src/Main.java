@@ -48,5 +48,11 @@ short rawEggs = 4*70;
 float sportsBreakfast = bananas+milk+icecreamSundae+rawEggs;
 float sportsBreakfast_kg = sportsBreakfast/1000;
 System.out.println("Вес спортзавтрака в граммах "+sportsBreakfast+", в киллограммах "+sportsBreakfast_kg);
+int kg_g = 7*1000;
+int planOne = kg_g/250;
+int planTwo = kg_g/500;
+System.out.println(+planOne+" дней потребуется, если спортсмен будет худеть по 250 грамм ежедневно и "+planTwo+" дней если по 500 грамм ежедневно");
+
+
     }
 }
