@@ -51,7 +51,21 @@ System.out.println("Вес спортзавтрака в граммах "+sports
 int kg_g = 7*1000;
 int planOne = kg_g/250;
 int planTwo = kg_g/500;
-System.out.println(+planOne+" дней потребуется, если спортсмен будет худеть по 250 грамм ежедневно и "+planTwo+" дней если по 500 грамм ежедневно");
+System.out.println(+planOne+" дней потребуется, если спортсмен будет худеть по 250 грамм ежедневно и "+planTwo+" дней если по 500 грамм ежедневно.");
+float percentMashca = 67760*0.10f+67760;
+float percentDenis = 83690*0.10f+83690;
+float percentKristina = 76230*0.10f+76230;
+float annualincomeMashca = percentMashca*12;
+float annualincomeDenis = percentDenis*12;
+float annualincomeKristina = percentKristina*12;
+float differenceMashca = annualincomeMashca-67760*12;
+float differenceDenis = annualincomeDenis-83690*12;
+float differenceKristina = annualincomeKristina-76230*12;
+        System.out.println("  Маша теперь получает "+percentMashca+" рублей. Годовой доход вырос на "+differenceMashca+" рублей.");
+        System.out.println("  Денис теперь получает "+percentDenis+" рублей. Годовой доход вырос на "+differenceDenis+" рублей.");
+        System.out.println("  Кристина теперь получает "+percentKristina+" рублей. Годовой доход вырос на "+differenceKristina+" рублей.");
+
+
 
 
     }
