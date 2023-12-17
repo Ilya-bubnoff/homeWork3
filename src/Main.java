@@ -64,9 +64,5 @@ float differenceKristina = annualincomeKristina-76230*12;
         System.out.println("  Маша теперь получает "+percentMashca+" рублей. Годовой доход вырос на "+differenceMashca+" рублей.");
         System.out.println("  Денис теперь получает "+percentDenis+" рублей. Годовой доход вырос на "+differenceDenis+" рублей.");
         System.out.println("  Кристина теперь получает "+percentKristina+" рублей. Годовой доход вырос на "+differenceKristina+" рублей.");
-
-
-
-
     }
 }
